@@ -1,0 +1,207 @@
+:root{
+    --cor-primaria: #4E31AA;
+    --cor-secundaria: #DCD7C9;
+    --cor-terciaria: #3A1078;
+    --cor-hover: #3795BD;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:var(--cor-primaria);
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    float: left;
+}
+
+.container img{
+    width: 260px;
+    height: 230px;
+}
+
+.container h1{
+    color: var(--cor-secundaria);
+    font-size: 40px;
+    font-weight: bold;
+}
+.container2{
+    display: block-inline;
+    width: 800px;
+    float:left;
+    color:var(--cor-secundaria);
+}
+
+.container2 .areaEncriptografar{
+    width: 80%;
+    margin-left: 10%;
+}
+.container2 .areaEncriptografar textarea{
+    background-color:var(--cor-secundaria);
+    font-size: 30px;
+    font-family: Arial;
+    border-style: none;
+    width: 80%;
+    margin-left: 10%;
+    display: block-inline;
+    text-align: start;
+    color:black;
+    resize: none;
+}
+
+.container2 .areaEncriptografar textarea:focus{
+    box-shadow: none;
+    outline: 0;
+}
+
+.container2 .mensagemAviso{
+    margin-left: 18%;
+    width: 60%;
+
+}
+
+.container2 .mensagemAviso img{
+    width: 20px;
+}
+
+.container2 .mensagemAviso strong{
+    text-decoration: none;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.botoesEncDesc{
+    margin-left: 18%;
+}
+
+.botoesEncDesc button{
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.botao1{
+    background-color:var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: white;
+    transition: 1s background;
+    cursor: pointer;
+
+}
+
+.botao1:hover{
+    color:var(--cor-primaria);
+    background-color:var(--cor-secundaria)
+    
+}
+
+.botao2{
+    color:var(--cor-primaria);
+    background-color:var(--cor-secundaria);
+    border-color:var(--cor-secundaria);
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.botao2:hover{
+    color:var(--cor-primaria);
+    background-color:var(--cor-secundaria);
+    border-color:var(--cor-secundaria);}
+
+.container3{
+    display: block-inline;
+    width: 400px;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3.5%;
+    color:var(--cor-primaria);
+}
+
+.areaDescriptografar{
+    background-color:white;
+    border-radius: 10px;
+    height: 735px;
+}
+
+.areaDescriptografar img{
+     width:68%;
+     margin-left: 73px;
+     padding-top: 12%;
+     padding-left: 10%;
+     z-index: 1;
+}
+.areaDescriptografar h2{
+    text-align: center;
+}
+
+.areaDescriptografar p{
+    text-align: center;
+}
+
+.container3 .areaDescriptografar textarea{
+    font-size: 30px;
+    border-style: none;
+    width: 95%;
+    height: 350px;
+    margin-left: 2%;
+    display: block-inline;
+    color:var(--cor-primaria);
+    z-index: -1000;
+    resize: none;
+}
+
+.container3 .areaDescriptografar textarea:focus{
+    box-shadow: none;
+    outline: 0;
+}
+
+.botaoCopiar{
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+
+.botaoCopiar button{
+    border-radius: 15px;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.botaoCop{
+    background-color:var(--cor-secundaria);
+    border-color:var(--cor-secundaria);
+    color:var(--cor-primaria);
+}
+
+.botaoCop:hover{
+    color:var(--cor-secundaria);
+    background-color:var(--cor-hover);
+    border-color:var(--cor-secundaria);
+}
+
+
+footer{
+    float: left;
+    background-color:var(--cor-terciaria);
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: bold;
+}
